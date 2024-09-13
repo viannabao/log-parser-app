@@ -10,7 +10,7 @@ The project includes a UI where users can upload log files, and it parses them t
 
 1. The parsing logic is implemented in **`src/utils/parseLogFile.js`**.
 2. Tests are provided in **`src/__tests__/parseLogFile.test.js`**.
-3. Try it out with the UI on the [live demo](#).
+3. Try it out with the UI on the [live demo](https://log-parser-app-nu.vercel.app/).
 4. Set up the UI on localhost by following the instructions below.
 
 ## Getting Started
@@ -41,5 +41,3 @@ npm run test
 # or
 yarn test
 ```
-
-The tests are located in src/__tests__/parseLogFile.test.js with mockData in src/__mocks__/mockLogData.js for checking the correct functionality of the parser, such as verifying the number of unique IP addresses, the top visited URLs, and the top active IPs.
